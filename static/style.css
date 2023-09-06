@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #09090b;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 20px auto 20rem auto;
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 0.15rem solid #363636;
+  background-color: #09090b;
+}
+
+h1 {
+  width: 70%;
+  color: #777;
+  font-size: 32px;
+  margin: 28px auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  padding: 12px 0;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  text-align: center;
+  width: 90%;
+  font-size: 16px;
+  transition: border .2s, background-color .2s;
+}
+
+form .field {
+  background-color: #09090b;
+  color: #8a8a8a;
+  border: 0.15rem solid #363636;
+}
+
+form field:placeholder {
+    color: #8a8a8a;
+}
+
+form .field:focus {
+  border: 0.15rem solid #363636;
+  outline: none; 
+}
+
+form .btn {
+  background-color: #09090b;
+  color: #8a8a8a;
+  line-height: 25px;
+  cursor: pointer;
+  width: 90%;
+  padding: 10px;
+  border: 0.15rem solid #363636;
+}
+
+form .btn:hover,
+form .btn:active {
+  background-color: #141414;
+  border: 0.15rem solid #363636;
+}
+
+.pass-link {
+  text-align: center;
+}
+
+.pass-link a:link,
+.pass-link a:visited {
+  font-size: 12px;
+  color: #777;
+}
